@@ -37,7 +37,7 @@ passport.deserializeUser(User.deserializeUser());
 app.use(passport.initialize());
 app.use(passport.session());
 
-
+mongoose.Promise = global.Promise;
 
 app.use(express.static(__dirname+"/public"));
 // mongoose.connect("mongodb://localhost/yelp_camp_v10");
