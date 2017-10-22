@@ -50,7 +50,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 
 app.set("view engine","ejs");
-app.listen(3000,function(){
+app.listen(process.env.PORT || 5000,function(){
     console.log("YelpCamp Server started");
 });
 
