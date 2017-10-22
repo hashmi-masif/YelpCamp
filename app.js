@@ -41,7 +41,7 @@ app.use(passport.session());
 
 app.use(express.static(__dirname+"/public"));
 // mongoose.connect("mongodb://localhost/yelp_camp_v10");
-mongoose.connect("mongodb://asif:wanrltw@ds227045.mlab.com:27045/yelp_camp69");
+mongoose.connect("mongodb://asif:wanrltw@ds227045.mlab.com:27045/yelp_camp69",{useMongoClient: true});
 
 //  mongodb://asif:wanrltw@ds227045.mlab.com:27045/yelp_camp69
 
