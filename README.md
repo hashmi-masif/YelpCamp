@@ -1,5 +1,5 @@
 # YelpCamp
-Yelpcamp is a site in where any person can signup or login and add their favorite camping place.  
+Yelpcamp is a site where any person can signup or login and add their favorite camping place.  
 It's made with node.js by using express framework.  
 Mongo database is used.  
 Frontend is of Simple JavaScript ,CSS and HTML.  
